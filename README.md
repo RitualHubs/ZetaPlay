@@ -1,10 +1,10 @@
-# MetaPlay
+# Ritual - ZetaPlay
 
 
 ## Decentralized AI-Powered Multi-Chain Gaming Platform
 
 > **Blockchain Gaming on the Ritual Network**  
-> MetaPlay is a gaming platform built on the **Ritual Network**, using decentralized AI. It supports multiple blockchains like **Ethereum (EVM)**, **Solana**, **Bitcoin**, and more. Play-to-Earn (P2E) mechanics let you earn real crypto rewards.
+> ZetaPlay is a gaming platform built on the **Ritual Network**, using decentralized AI. It supports multiple blockchains like **Ethereum (EVM)**, **Solana**, **Bitcoin**, and more chains. Play-to-Earn (P2E) mechanics let you earn real crypto rewards.
 
 ---
 
@@ -42,7 +42,7 @@
 
 ```bash
 git clone <git-repository-url>
-cd MetaPlay
+cd ZetaPlay
 
 # Install root dependencies
 npm install
