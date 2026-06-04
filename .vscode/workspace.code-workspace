@@ -11,9 +11,11 @@
             "**/node_modules": true,
             "**/.cache": true
         },
+
         "search.exclude": {
             "**/node_modules": true
         },
+        
         "terminal.integrated.defaultProfile.windows": "Command Prompt",
         "terminal.integrated.defaultProfile.linux": "bash",
         "terminal.integrated.defaultProfile.osx": "zsh"

