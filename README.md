@@ -1,9 +1,10 @@
 # MetaPlay
 
+
 ## Decentralized AI-Powered Multi-Chain Gaming Platform
 
 > **Blockchain Gaming on the Ritual Network**  
-> MetaPlay is a gaming platform built on the **Ritual Network**, using decentralized AI. It supports multiple blockchains like **Ethereum (EVM)**, **Solana**, and more. Play-to-Earn (P2E) mechanics let you earn real crypto rewards.
+> MetaPlay is a gaming platform built on the **Ritual Network**, using decentralized AI. It supports multiple blockchains like **Ethereum (EVM)**, **Solana**, **Bitcoin**, and more. Play-to-Earn (P2E) mechanics let you earn real crypto rewards.
 
 ---
 
@@ -84,5 +85,5 @@ npm start
 - Tag related issues/tasks.
 
 ## Confidentiality
-This repository is proprietary to **Ritual Net**.
+This repository is proprietary to **Ritual**.
 
