@@ -39,6 +39,7 @@ export const socketEvents = {
 
   /** SERVER → CLIENT EVENTS **/
 
+  
   // Server confirms that the room was successfully created.
   'SC_RoomCreated': 0xff1001,
 

