@@ -8,6 +8,12 @@
 
 ---
 
+<p align="center">
+  <img src="./client/public/Zetaimg.png"  />
+</p>
+
+---
+
 ## Current Features
 
 - **Decentralized AI**
